@@ -1,0 +1,1429 @@
+
+body {
+    margin: 0;
+}
+/*-----Home-----*/
+
+.brandtitle-home{
+    display:inline-block;
+    margin:0;
+    color:white;
+    text-shadow: 3px 3px 5px orangered;
+    font-family: Verdana;
+    position:relative;
+    top:-7px;
+    left: 10px;
+    font-size: 32px;
+}
+.bg-video{
+position: fixed;
+top: 0%;
+right: 0%;
+bottom: 0;
+left:0;
+z-index: 1;
+}
+.link-container{
+    position: fixed; /* fixed the background para di sumama yung nav bar pag na scroll*/
+    z-index: 2; /* above the all the elements*/    
+}
+video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height:auto;
+    transform: translate(-50%, -50%);
+    filter: brightness(50%);
+    position: fixed;
+
+}
+.nav-home{
+    background-color:black;
+    padding: 15px 25px;
+    box-shadow: 0 0 5px 3px rgba(0,0,0.5);
+    position: fixed;
+    width: 100%;
+    top:0; 
+    border: 1px solid white;  
+    
+    
+}
+.slide-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    text-align: center;
+}
+
+.slide-container h2 {
+    color: white;
+    font-family: Verdana, sans-serif;
+    font-size: 46px;
+    margin-bottom: 20px; /* Add space below h2 */
+    text-shadow: 1px 1px 5px black;
+}
+
+.slide-container p {
+    color: white;
+    font-family: Verdana, sans-serif;
+    font-size: 30px;
+    margin: 0; /* Remove default margin */
+    text-shadow: 1px 1px 5px black;
+}
+.get-started{
+    margin-top:-100px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px auto;
+    position: relative;
+    padding: 20px;
+    margin-top: -200px;
+    border: 1px 1px 5px solid black;
+
+    
+}
+.get-started input{
+    width:70%;
+    padding:10px;
+    outline:none;
+    border: 0;
+    border-radius: 5px 0 0 5px;
+    font-size: 1rem;
+    border: 1px solid orangered;
+    cursor: pointer;
+    
+}
+.get-started button{
+    padding:12px 20px;
+    outline:none;
+    border: 0;
+    border-radius: 0 5px 5px 0;
+    font-size: 1rem;
+    background: orangered;
+    color:white;
+    cursor: pointer;
+    margin-top:10px;
+    font-weight: bold;
+    font-family: verdana;
+    font-size: 13px;
+    
+}
+.get-started button:hover{
+    color:white;
+    background-color:#d08900;
+}
+
+.account-container {
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+    z-index: 2;
+    margin-top: -20px;
+}
+
+.account-container p {
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    position: relative;
+    font-family: verdana;
+    text-shadow: 2px 2px 5px solid black;
+    
+}
+
+.account-container .login-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: relative;
+    
+}
+
+.account-container .login-button:hover {
+    background-color: #d08900;
+    position: relative;
+}
+.credit{
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: relative;
+    margin-left: 95%;
+    margin-top:19%;
+
+}
+/* credit */
+.credit-btn {
+    text-decoration: none;
+    color: white;
+}
+.credit:hover{
+    background-color:#d08900
+}
+#credits-list{
+    margin-top: 5%;
+    color: white;
+    font-family: verdana;
+    font-size: 20px;
+}
+.foodname{
+    text-decoration: none;
+    color: white;
+}
+.credit-bg{
+    text-decoration: none;
+    color: white;
+}
+.credit-desc{
+    text-decoration: none;
+    color: white;
+}
+
+/*-----CONTACT-------*/
+.nav-contact{
+    background-color:black;
+    padding: 15px 25px;
+    box-shadow: 0 0 5px 3px rgba(0,0,0.5);
+    position: fixed;
+    width: 100%;
+    top:0;  
+    border: 1px solid white;
+}
+.bg-video{
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    bottom: 0;
+    left:0;
+    z-index: 1;
+    }
+     video{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height:auto;
+        transform: translate(-50%, -50%);
+        filter: brightness(50%);
+        position: fixed;
+    
+    }
+.brandtitle-contact{
+    display:inline-block;
+    margin:0;
+    color:white;
+    text-shadow: 2px 2px 5px orangered;
+    font-family: Verdana;
+    position:relative;
+    top:-7px;
+    left: 10px;
+    font-size: 32px;
+
+}
+.contact-bg{
+  margin-top: 120px 
+}
+.contact{
+    text-align: center;
+    font-size: 36px;
+    color: white;
+    text-shadow: 2px 2px 5px orangered;
+    font-family: Verdana;
+    margin-top: 10px;
+    position: relative;
+}
+.concern{
+    margin-top:-30px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 5px orangered;
+    font-family: Verdana;
+    position: relative;
+}
+.contact-container{
+    width:385px;
+    margin:30px auto;
+    box-shadow: 0 0 5x 3px rgba(0,0,0.1);
+    border: 2px solid black; 
+    background-color: white;   
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+}
+input{
+    display: block;
+    width: 90%;
+    outline:none;
+    padding: 15px;
+    font-size:15px;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0.1);
+    margin-top: 10px;
+    cursor: pointer;
+}
+hr{
+    margin: 25px 0;
+    opacity: 0.3;
+}
+.message-box {
+    width: 95%;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-position: center;
+}
+
+.message-box textarea {
+    width: 100%;
+    height: 100px;
+    resize: vertical;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-top: 10px;
+    background-position: center;
+    cursor: pointer;
+}
+.btn-send{
+    width:100%;
+    display: block;
+    margin-top: 15px;
+    padding: 15px 0;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: orangered;
+    border: 1px solid black;
+}
+.get{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px orangered;
+    font-size:30px;
+    font-family: Verdana;
+    position: relative;
+}
+/*-----ABOUT-------*/
+.brandtitle-about {
+    display: inline-block;
+    margin: 0;
+    color: white;
+    text-shadow: 2px 2px 5px orangered;
+    font-family: Verdana;
+    position: relative;
+    top: -7px;
+    left: 10px;
+    font-size: 32px;
+}
+.bg-video{
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    bottom: 0;
+    left:0;
+    z-index: -1;
+    }
+     video{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height:auto;
+        transform: translate(-50%, -50%);
+        filter: brightness(50%);
+        position: fixed;
+        z-index: -1;
+    
+    }
+.about-bg{
+    position: relative;
+    z-index: 2;
+   margin-top: 95px;
+}
+.brandcontainer-about{
+    position: fixed
+}
+.nav-about {
+    background-color: black;
+    padding: 15px 25px;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    top: 0;
+    border: 1px solid white;
+    position: fixed; 
+}
+
+.about {
+    text-align: center;
+    font-size: 36px;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+    font-family: Verdana;
+    margin-top: 50px;
+   
+}
+.statement{
+   
+    margin-top:100%px;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 30px;
+    color:white;
+    width: 100%;
+    text-shadow: 1px 1px 5px black;
+    margin-top:50px
+}
+.group {
+  
+    margin-top: -30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.group h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    color: white;
+    font-size: 44px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px black;
+    font-family: verdana;
+}
+
+.group-leader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.group-leader img {
+    
+    border:2px solid black;
+    width:300px;
+    height: 300px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+
+.leader-info {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}
+
+.members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}
+
+.member {
+    margin: 10px;
+    text-align: center;
+}
+
+.member img {
+    border: 2px solid black;
+    width: 300px;
+    height:300px;
+}
+
+.member-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0.5em;
+   
+}
+/*-----Log in inside the nav bar -------*/
+
+.brandtitle-login {
+    display: inline-block;
+    margin: 0;
+    color: white;
+    text-shadow: 3px 3px 5px orangered;
+    font-family: Verdana;
+    position: relative;
+    top: -7px;
+    left: 10px;
+    font-size: 32px;
+}
+
+.bg-login {
+    width: 100%;
+    height: 100vh;
+    background-image: url('bghome1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+}
+.nav-login {
+    background-color: black;
+    padding: 15px 25px;
+    box-shadow: 0 0 5px 3px rgba(0,0,0,0.5);
+    position: fixed;
+    width: 100%;
+    top: 0; 
+    border: 1px solid white;   
+}
+.bg-login{
+    margin-bottom:300px;
+    padding: 140px 0;
+}
+.welcome {
+    text-align: center;
+    font-size: 36px;
+    color: white;
+    text-shadow: 2px 2px 5px orangered;
+    font-family: Verdana;
+}
+.quote {
+    margin-top: -20px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 5px orangered;
+    font-family: Verdana;
+}
+.login-container {
+    width: 385px;
+    margin: 30px auto;
+    box-shadow: 0 0 5px 3px rgba(0,0,0,0.1);
+    border: 2px solid black; 
+    background-color: white;   
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+input {
+    display: block;
+    width: 90%;
+    outline: none;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.1);
+    margin-top: 10px;
+}
+.btn-login{
+    display: block;
+    margin-top: 15px;
+    padding: 15px 0;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: orangered;
+    border: 1px solid black;
+    text-decoration: none; /* Apply directly to <a> */
+}
+.phrase{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px orangered;
+    font-size:30px;
+    font-family: verdana;
+}
+
+/*----- sign up inside the nav bar -------*/
+
+.brandtitle-signup{
+    display:inline-block;
+    margin:0;
+    color:white;
+    text-shadow: 3px 3px 5px orangered;
+    font-family: Verdana;
+    position:relative;
+    top:-7px;
+    left: 10px;
+    font-size: 32px;
+
+}
+.bg-signup{
+    width: 100%;
+    height: 100vh;
+    background-image: url('bghome1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    left: px;
+
+    
+}
+.nav-signup{
+    background-color:black;
+    padding: 15px 25px;
+    box-shadow: 0 0 5px 3px rgba(0,0,0.5);
+    position: fixed;
+    width: 100%;
+    top:0; 
+    border: 1px solid white;   
+}
+.bg-signup{
+    margin-bottom:300px;
+    padding: 140px 0;
+}
+.welcome{
+    text-align: center;
+    font-size: 36px;
+    color: white;
+    text-shadow: 2px 2px 5px orangered;
+    font-family: Verdana;
+}
+.quote{
+    margin-top:-20px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 5px orangered;
+    font-family: Verdana;
+}
+
+
+.signup-container{
+    width:385px;
+    margin:30px auto;
+    box-shadow: 0 0 5x 3px rgba(0,0,0.1);
+    border: 2px solid black; 
+    background-color: white;   
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+input{
+    display: block;
+    width: 90%;
+    outline:none;
+    padding: 15px;
+    font-size:18px;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0.1);
+    margin-top: 10px;
+}
+
+.btn-signup{
+    display: block;
+    margin: 15px auto;
+    margin-top: 15px;
+    padding: 15px;
+    color:white;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    background-color:orangered;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+/*-----mainpage-----*/
+
+nav {
+    position: fixed;
+    background-color: black;
+    padding: 15px 25px;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0.5);
+    width: 100%;
+    top: 0;
+    border: 1px solid white;
+    background-attachment: fixed;
+}
+
+.brand-title {
+    display: inline-block;
+    margin: 0;
+    color: white;
+    text-shadow: 2px 2px 5px orangered;
+    font-family: Verdana;
+    position: relative;
+    top: -7px;
+    left: 10px;
+    font-size: 32px;
+}
+
+.brand-title-home {
+    display: inline-block;
+    margin: 0;
+    color: white;
+    text-shadow: 2px 2px 5px orangered;
+    font-family: Verdana;
+    position: relative;
+    top: -7px;
+    left: 15px;
+    font-size: 32px;
+}
+
+.link-container {
+    float: right;
+    position: relative;
+    top: 27px;
+    right: 30px;
+    font-family: Verdana;
+    color: white;
+    text-shadow: 2px 2px 5px orangered;
+    margin: 0 20px;
+    position: fixed;
+    font-size: 26px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    font-family: Verdana;
+    margin: 0 20px;
+}
+
+.link:hover {
+    color: orangered;
+}
+.home {
+    color:orangered;
+    text-decoration: none;
+    font-family: Verdana;
+    margin: 0 20px;
+}
+.home:hover {
+    color: white;
+}
+.bg {
+    background: url(bg1.png);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-family: Verdana;
+}
+
+.bg-section {
+    margin-bottom: -150px;
+    padding: 140px 0;
+}
+
+.bg h2 {
+    font-size: 40px;
+    margin-top: 70px;
+    text-shadow: 3px 3px 5px black;
+}
+
+.bg p {
+    font-size: 26px;
+    margin-top: -15px;
+    text-shadow: 3px 3px 5px black;
+}
+
+.search-box {
+    margin-top: -100px;
+    max-width: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px auto;
+}
+
+.search-box input {
+    width: 70%;
+    padding: 10px;
+    outline: none;
+    border: 0;
+    border-radius: 5px 0 0 5px;
+    font-size: 1rem;
+    border: 1px solid orangered;
+}
+
+.search-box button {
+    padding: 10px 20px;
+    outline: none;
+    border: 0;
+    border-radius: 0 5px 5px 0;
+    font-size: 1rem;
+    background: orangered;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/*-----recipe positioning and design-----*/
+.recipes {
+    padding: 20px;
+    background-color :#F9E9DB;
+     border: 20px solid #F9E9DB; /* Set border instead of margin-bottom */
+}
+
+.recipe-section {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    grid-gap: 20px;
+    justify-content: center;
+    
+}
+
+.recipe-card {
+    background: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.recipe-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.recipe-card h2 {
+    font-size: 22px;
+    padding: 15px;
+    margin: 0;
+    font-family: verdana;
+}
+
+.recipe-card a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: #333;
+    color: #fff;
+    padding: 15px 0;
+    cursor: pointer;
+}
+
+.recipe-card a:hover {
+    cursor: pointer;
+    color: orangered;
+    padding: 15px;
+}
+
+.recipes h2 {
+    margin-top: -10px;
+    text-align: center;
+    font-family: Verdana;
+    color:black;
+    text-shadow: 1px 1px 5px white;
+    font-size: 30px;
+
+}
+
+.homebutton:hover {
+    filter: brightness(0.5);
+}
+
+
+
+    /*-----RECIPE-1-------*/
+    .nav-recipe-1 {
+        position: fixed;
+        background-color: black;
+        padding: 15px 25px;
+        box-shadow: 0 0 5px 3px rgba(0, 0, 0.5);
+        width: 97.3%;
+        top: 0;
+        border: 1px solid white;
+        background-attachment: fixed;
+    }
+    .container-recipe {
+        float: right;
+        position: relative;
+        top: 27px;
+        right: 40px;
+        font-family: Verdana;
+        color: white;
+        text-shadow: 2px 2px 5px orangered;
+        margin: 0 20px;
+        position: fixed;
+        font-size: 26px;
+    }
+    
+    .recipe-title {
+        display: inline-block;
+        margin: 0;
+        color: white;
+        text-shadow: 2px 2px 5px orangered;
+        font-family: Verdana;
+        position: relative;
+        top: -10px;
+        left: 15px;
+        font-size: 30px;
+    }
+    
+    .recipe-bg {
+        width: 100%;
+        height: calc(100vh - 90px); /* Subtracting the height of the navigation bar */
+        background-image: url('foodrecipebg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: fixed;
+        overflow-y: auto;
+        top: 90px; /* Adjusted to match the height of the navigation bar */
+        margin-top: -13px;
+    }
+    
+    .pic-1 {
+        width: 400px;
+        height: 400px;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 80px;
+    }
+    
+    .pic-1 img {
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
+        margin: 0;
+        padding: 0;
+        border: 2px solid black;
+        margin-top: -30px;
+    }
+    
+    .sisig {
+        
+        text-align: center;
+        font-size: 38px;
+        color: white;
+        text-shadow: 3px 3px 5px orangered;
+        font-family: Verdana;
+        margin-top: -70px;
+    }
+    
+    .sisig-origin h2 {
+        margin-top: -30px;
+        text-align: center;
+        font-size: 32px;
+        color: white;
+        text-shadow: 3px 3px 5px orangered;
+        font-family: Verdana;
+    }
+    .sisig-origin p {
+        position: relative;
+        margin: 0 auto;
+        max-width: 70%;
+        font-size: 30px;
+        font-family: Verdana;
+        color: white;
+        text-shadow: 2px 2px 5px black;
+        margin-top: -20px;
+    }
+     
+    .sisig-ingredients h2 {
+        margin-top: -20px;
+        text-align: center;
+        font-size: 32px;
+        color: white;
+        text-shadow: 3px 3px 5px orangered;
+        font-family: Verdana;
+    } .sisig-ingredients { /* bullet form*/
+        width: 60%; /* Adjust the width as needed */
+        margin: 0 auto; /* This centers the div horizontally */
+        padding: 20px;
+        color: white;
+        font-size:30px;
+        max-width: 70%;
+        font-family: verdana;
+        text-shadow:2px 2px 5px  black 
+    }
+    .sisig-procedure h2{
+        margin-top: -60px;
+        text-align: center;
+        font-size: 32px;
+        color: white;
+        text-shadow: 3px 3px 5px orangered;
+        font-family: Verdana;
+    } 
+    .sisig-procedure { /* bullet form*/
+        width: 60%; /* Adjust the width as needed */
+        margin: 0 auto; /* This centers the div horizontally */
+        padding: 20px;
+        color: white;
+        font-size:30px;
+        max-width: 70%;
+        font-family: verdana;
+        text-shadow:2px 2px 5px  black 
+    }
+    .video-container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 150px;
+        width: 600px;
+        margin-left:35%;
+        cursor: pointer;
+     
+    }
+    
+    .vid-pro {
+        position: relative;
+        z-index: 1;
+        border: 2px solid black;
+        margin-bottom:-110px;
+    }
+
+     /*-----RECIPE-2-------*/
+     
+     .nav-recipe-2 {
+        background-color: black;
+        padding: 10px;
+        box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.5);
+        position: fixed;
+        max-width: 100%;
+        top: 0;
+        border: 1px solid white;
+        text-decoration: none;
+    }
+    
+    .recipe-title {
+        display: inline-block;
+        margin: 0;
+        color: white;
+        text-shadow: 2px 2px 5px orangered;
+        font-family: Verdana;
+        position: relative;
+        top: -10px;
+        left: 15px;
+        font-size: 30px;
+    }
+    
+    .recipe2-bg {
+        width: 100%;
+        height: calc(100vh - 70px); /* Subtracting the height of the navigation bar */
+        background-image: url('foodrecipebg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: fixed;
+        overflow-y: auto;
+        top: 90px; /* Adjusted to match the height of the navigation bar */
+        margin-top: -13px;
+    }
+    
+    .pic-2 {
+        margin: 0 auto;
+        margin-top: 80px;
+        text-align: center;
+        
+    }
+    .pic-2 img{
+        margin-top: -30px;
+        border: 2px solid black;
+        width: 400px;
+        
+    }
+    .pic-2 h2 {
+        
+        text-align: center;
+        font-size: 38px;
+        color: white;
+        text-shadow: 3px 3px 5px orangered;
+        font-family: Verdana;
+        margin-top: -70px;
+    }
+    
+    .camaru-origin h2 {
+        text-align: center;
+        font-size: 32px;
+        color: white;
+        text-shadow: 3px 3px 5px orangered;
+        font-family: Verdana;
+    }
+    .camaru-origin p {
+        position: relative;
+        margin: 0 auto;
+        max-width: 70%;
+        font-size: 30px;
+        font-family: Verdana;
+        color: white;
+        text-shadow: 2px 2px 5px black;
+        margin-top: -20px;
+    }
+     
+    .camaru-ingredients h2 {
+        margin-top: -20px;
+        text-align: center;
+        font-size: 32px;
+        color: white;
+        text-shadow: 3px 3px 5px orangered;
+        font-family: Verdana;
+    } .camaru-ingredients { /* bullet form*/
+        width: 60%; /* Adjust the width as needed */
+        margin: 0 auto; /* This centers the div horizontally */
+        padding: 20px;
+        color: white;
+        font-size:30px;
+        max-width: 70%;
+        font-family: verdana;
+        text-shadow:2px 2px 5px  black 
+    }
+    .camaru-procedure h2{
+        margin-top: -60px;
+        text-align: center;
+        font-size: 32px;
+        color: white;
+        text-shadow: 3px 3px 5px orangered;
+        font-family: Verdana;
+    } 
+    .camaru-procedure { /* bullet form*/
+        width: 60%; /* Adjust the width as needed */
+        margin: 0 auto; /* This centers the div horizontally */
+        padding: 20px;
+        color: white;
+        font-size:30px;
+        max-width: 70%;
+        font-family: verdana;
+        text-shadow:2px 2px 5px  black 
+    }
+    .video-container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 150px;
+        width: 600px;
+        margin-left:35%;
+        cursor: pointer;
+      
+    }
+    
+    .vid-pro {
+        position: relative;
+        z-index: 1;
+        border: 2px solid black;
+        margin-bottom:-110px;
+    }
+
+
+   
+    /*----SINCE SAME DESIGN NALANG YUNG MGA RECIPE HINDI NAKO GAGAWA CACALL OUT NALANG NATIN SAME CLASS NAME SA CSS
+    +to ensure na same size mga picture yun nalang gagalawin natin
+    yun nalang papalitan natin ng class to modify-----*/
+
+    /*-----betute----*/
+    .pic-3 {
+        margin: 0 auto;
+        margin-top: 80px;
+        text-align: center;
+        
+    }
+    .pic-3 img{
+        margin-top: -30px;
+        border: 2px solid black;
+        width: 400px;
+        height:300px;
+       
+    }
+    .pic-3 h2 {
+        
+        text-align: center;
+        font-size: 38px;
+        color: white;
+        text-shadow: 3px 3px 5px orangered;
+        font-family: Verdana;
+        margin-top: -70px;
+    }
+     /*-----buro----*/
+    .pic-5 {
+        margin: 0 auto;
+        margin-top: 80px;
+        text-align: center;
+        
+    }
+    .pic-5 img{
+        margin-top: -30px;
+        border: 2px solid black;
+        width: 400px;
+        height:300px;
+       
+    }
+    .pic-5 h2 {
+        
+        text-align: center;
+        font-size: 38px;
+        color: white;
+        text-shadow: 3px 3px 5px orangered;
+        font-family: Verdana;
+        margin-top: -70px;
+    }
+        /*-----karekare----*/
+    .pic-6 {
+        margin: 0 auto;
+        margin-top: 80px;
+        text-align: center;
+        
+    }
+    .pic-6 img{
+        margin-top: -30px;
+        border: 2px solid black;
+        width: 400px;
+        height:300px;
+       
+    }
+    .pic-6 h2 {
+        
+        text-align: center;
+        font-size: 38px;
+        color: white;
+        text-shadow: 3px 3px 5px orangered;
+        font-family: Verdana;
+        margin-top: -70px;
+    }
+         /*-----tibuktibuk----*/
+         .pic-8 {
+            margin: 0 auto;
+            margin-top: 80px;
+            text-align: center;
+            
+        }
+        .pic-8 img{
+            margin-top: -30px;
+            border: 2px solid black;
+            width: 400px;
+            height:300px;
+           
+        }
+        .pic-8 h2 {
+            
+            text-align: center;
+            font-size: 38px;
+            color: white;
+            text-shadow: 3px 3px 5px orangered;
+            font-family: Verdana;
+            margin-top: -70px;
+        }
+     
+     /*-----arrozcaldo----*/
+    .pic-9 {
+        margin: 0 auto;
+        margin-top: 80px;
+        text-align: center;
+        
+    }
+    .pic-9 img{
+        margin-top: -30px;
+        border: 2px solid black;
+        width: 400px;
+        height: 300px;
+        
+    }
+    .pic-9 h2 {
+        
+        text-align: center;
+        font-size: 38px;
+        color: white;
+        text-shadow: 3px 3px 5px orangered;
+        font-family: Verdana;
+        margin-top: -70px;
+    }
+   /*-----tokwat babi----*/
+   .pic-10{
+    margin: 0 auto;
+    margin-top: 80px;
+    text-align: center;
+    
+}
+.pic-10 img{
+    margin-top: -30px;
+    border: 2px solid black;
+    width: 400px;
+    height: 300px;
+    
+}
+.pic-10 h2 {
+    
+    text-align: center;
+    font-size: 38px;
+    color: white;
+    text-shadow: 3px 3px 5px orangered;
+    font-family: Verdana;
+    margin-top: -70px;
+}
+   /*-----bulanglang----*/
+   .pic-11{
+    margin: 0 auto;
+    margin-top: 80px;
+    text-align: center;
+    
+}
+.pic-11 img{
+    margin-top: -30px;
+    border: 2px solid black;
+    width: 400px;
+    height: 300px;
+    
+}
+.pic-11 h2 {
+    
+    text-align: center;
+    font-size: 38px;
+    color: white;
+    text-shadow: 3px 3px 5px orangered;
+    font-family: Verdana;
+    margin-top: -70px;
+}
+  /*-----morcon----*/
+.pic-13{
+    margin: 0 auto;
+    margin-top: 80px;
+    text-align: center;
+    
+}
+.pic-13 img{
+    margin-top: -30px;
+    border: 2px solid black;
+    width: 400px;
+    height: 300px;
+    
+}
+.pic-13 h2 {
+    
+    text-align: center;
+    font-size: 38px;
+    color: white;
+    text-shadow: 3px 3px 5px orangered;
+    font-family: Verdana;
+    margin-top: -70px;
+}
+/*-----talangka----*/
+.pic-14{
+    margin: 0 auto;
+    margin-top: 80px;
+    text-align: center;
+    
+}
+.pic-14 img{
+    margin-top: -30px;
+    border: 2px solid black;
+    width: 400px;
+    height: 300px;
+    
+}
+.pic-14 h2 {
+    
+    text-align: center;
+    font-size: 38px;
+    color: white;
+    text-shadow: 3px 3px 5px orangered;
+    font-family: Verdana;
+    margin-top: -70px;
+}
+/*-----embotido----*/
+.pic-15{
+    margin: 0 auto;
+    margin-top: 80px;
+    text-align: center;
+    
+}
+.pic-15 img{
+    margin-top: -30px;
+    border: 2px solid black;
+    width: 400px;
+    height: 300px;
+    
+}
+.pic-15 h2 {
+    
+    text-align: center;
+    font-size: 38px;
+    color: white;
+    text-shadow: 3px 3px 5px orangered;
+    font-family: Verdana;
+    margin-top: -70px;
+}
+/*-----lengua----*/
+.pic-16{
+    margin: 0 auto;
+    margin-top: 80px;
+    text-align: center;
+    
+}
+.pic-16 img{
+    margin-top: -30px;
+    border: 2px solid black;
+    width: 400px;
+    height: 300px;
+    
+}
+.pic-16 h2 {
+    
+    text-align: center;
+    font-size: 38px;
+    color: white;
+    text-shadow: 3px 3px 5px orangered;
+    font-family: Verdana;
+    margin-top: -70px;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+    z-index: 2;
+
+}
+
+footer p {
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent black */
+    display: inline; /* Ensure inline display for the paragraph */
+    padding: 5px 10px; /* Adjust padding as needed */
+    margin-top: 50px;
+}
+
+
+
+ 
